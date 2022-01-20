@@ -1,0 +1,24 @@
+<view class='container'>
+  <!-- 上半部分 -->
+  <view class='shangbanbufen'>
+    <!-- 左半部分 -->
+    <view class='left'>
+      <image src='/images/third-one.jpg' class='leftimage'></image>
+    </view>
+    <!-- 右半部分 -->
+    <view class='right'>
+      <text class='titleone'>对计算机专业的认识</text>
+      <text>\n</text>
+      <text class='hhtext'>计算机专业有很多个学习方向。针对现阶段，硬件方面的发展几乎到达了巅峰，侧重软件方面的发展比较有前途但不容易学。软件方面的发展包括软件的应用和开发，软件的应用是基础，软件的开发要靠专门的技术和依靠相关的开发工具。</text>
+    </view>
+  </view>
+  <!-- 下半部分 -->
+  <view>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+    <text class='m'>我的学业规划</text>
+    <text>\n</text>
+    <text class='n'>要学好计算机专业（软件方面的），首先，要对英文有一定的了解，最起码看得懂英文，因为很多源代码和书籍都是来源于外国（如美国）；其次，要学精一门编程语言（如C、C++、Java等），到时就能综合巧妙的运用，一通百通；其三，要多学多看算法，融会贯通算法中的逻辑思维，并尽最大能力应用这些算法去实现生活和学习上的问题，这样一来，时间一长便可举一反三，拥有创新思维；其四，要学好相关的专业理论和知识（如数据库、软件工程等）；最后，要经常实践，尽量的做到更优，坚持原则“将方便带给用户，把麻烦留于自己！</text>
+  </view>
+</view>

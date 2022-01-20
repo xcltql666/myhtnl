@@ -1,0 +1,47 @@
+/* 幻灯片部分 */
+swiper{
+  height:400rpx;
+  width:100%;
+}
+
+swiper image{
+  height:100%;
+  width:100%；
+}
+.txt{
+  display:block;
+  text-indent: 2em;
+  color:rgb(205, 253, 255);
+  font-style: oblique;
+}
+.container{
+  height:100vh;/*高100的视窗，这里写100%是无效的*/
+  display:flex;/*flex布局方法*/
+  flex-direction: column;/*垂直布局*/
+  background-image:url(http://picnew13.photophoto.cn/20190107/zhinengkejihulianwangbeijing-32368556_1.jpg) ;
+}
+
+.a{
+  display:block;
+  text-align: center;/*水平方向居中*/
+  color:rgb(27, 235, 200);
+}
+
+.b{
+  display:block;
+  text-align: center;/*水平方向居中*/
+  color:rgb(27, 235, 200);
+}
+
+.c{
+  display:block;
+  text-align: center;/*水平方向居中*/
+  color:rgb(27, 235, 200);
+}
+
+.d{
+  display:block;
+  text-indent: 2em;
+  font-style: oblique;
+  color: blanchedalmond;
+}

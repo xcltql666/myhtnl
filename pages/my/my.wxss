@@ -1,0 +1,30 @@
+.container{
+  height:100vh;/*高100的视窗，这里写100%是无效的*/
+  display:flex;/*flex布局方法*/
+  flex-direction: column;/*垂直布局*/
+  align-items: center;/*水平方向居中*/
+  justify-content: space-around;/*垂直方向分散布局*/
+  background-image:url(http://picnew13.photophoto.cn/20190107/zhinengkejihulianwangbeijing-32368556_1.jpg) ;
+}
+
+  .b{
+    width:800rpx;
+    height:1000rpx;
+    border: 10rpx solid #3ab4ec;
+  }
+
+  .a{
+    font-size: 50rpx;
+    color: red;
+    margin:20rpx;
+    flex-grow:1;
+    font-style: italic;
+  }
+
+  .c{
+    font-size: 50rpx;
+    color: red;
+    margin:10rpx;
+    flex-grow:1;
+    font-style:oblique;
+  }

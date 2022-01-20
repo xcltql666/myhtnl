@@ -1,0 +1,22 @@
+<!-- 幻灯片 -->
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+  <view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+    <swiper-item>
+      <image src="{{item.src}}"></image>
+    </swiper-item>
+  </view>
+</swiper>
+
+<view class="container">
+  <text class='txt'>以上图片展示的书籍非常适合初学者了解计算机，除了以上推荐的基础书籍外,还推荐小伙伴们参考以下书籍来提高自己！</text>
+  <text class='a'>①《Python 3网络爬虫开发实战》</text>
+  <text class='b'>②《Web前端开发精品课 HTML CSS JavaScript基础教程》</text>
+  <text class='c'>③《你不知道的JavaScript》</text>
+  <text class='d'>当然，在信息时代，我们应当利用好网上资源，深度学习。因此，以下列出一些受欢迎的计算机学习网站：</text>
+  <text>\n</text>
+  <text>①菜鸟教程：https://www.runoob.com/</text>
+  <text class='d'>就像它的名字一样，菜鸟教程非常适合初学者来进行学习，前端、后端、数据库等等知识均有涉猎，覆盖面非常广，里面的内容浅显易懂，非常友好！</text>
+  <text>\n</text>
+  <text>②谷粒学院：https://gitee.com/guli_xy</text>
+  <text class='d'>谷粒学院会同多个知名开发团队联合制定的Java、前端、大数据、Python、Linux运维等课程，致力于打造业界更适合自学、代码量大、案例多的IT在线学习平台！</text>
+</view>

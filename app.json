@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/index/index",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#328EEB",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "计算机导论",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#328EEB",
+    "list": [
+      {
+        "pagePath": "pages/my/my",
+        "text": "课程关系",
+        "iconPath": "/images/xiabiao1.jpg",
+        "selectedIconPath": "/images/xiabiao2.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "参考资料",
+        "iconPath": "/images/xiabiao1.jpg",
+        "selectedIconPath": "/images/xiabiao2.jpg"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "认知与规划",
+        "iconPath": "/images/xiabiao1.jpg",
+        "selectedIconPath": "/images/xiabiao2.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
